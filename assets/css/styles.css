@@ -1,0 +1,108 @@
+
+h1 {
+	font-size: 18px ;
+	line-height: 26px ;
+	margin: 0px 0px 16px 0px ;
+}
+
+div.uploader {
+	border: 1px solid #DADADA ;
+	bottom: 80px ;
+	left: 160px ;
+	overflow: auto ;
+	padding: 10px 10px 10px 10px ;
+	position: fixed ;
+	right: 160px ;
+	top: 80px ;
+}
+
+ul.uploads {
+	list-style-type: none ;
+	margin: 16px 0px 16px 0px ;
+	padding: 0px 0px 0px 0px ;
+}
+
+ul.uploads:after {
+	clear: both ;
+	content: "" ;
+	display: block ;
+	height: 0px ;
+}
+
+ul.uploads li {
+	background-color: #FAFAFA ;
+	border: 1px solid #CCCCCC ;
+	border-radius: 3px 3px 3px 3px ;
+	float: left ;
+	height: 75px ;
+	margin: 10px 10px 0px 0px ;
+	width: 75px ;
+}
+
+ul.uploads img {
+	border-radius: 3px 3px 3px 3px ;
+	display: block ;
+	margin: 0px auto 0px auto ;
+	max-height: 75px ;
+	max-width: 75px ;
+}
+
+ul.dropzones {
+	list-style-type: none ;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+}
+
+ul.dropzones li {
+	background-color: #FAFAFA ;
+	border: 2px solid #CC0000 ;
+	color: #333333 ;
+	height: 50px ;
+	line-height: 50px ;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	position: fixed ;
+	text-align: center ;
+	width: 130px ;
+}
+
+ul.dropzones a {
+	color: inherit ;
+	display: block ;
+}
+
+ul.dropzones li.nw,
+ul.dropzones li.n,
+ul.dropzones li.ne {
+	top: 10px ;
+}
+
+ul.dropzones li.ne,
+ul.dropzones li.e,
+ul.dropzones li.se {
+	right: 10px ;
+}
+
+ul.dropzones li.sw,
+ul.dropzones li.s,
+ul.dropzones li.se {
+	bottom: 10px ;
+}
+
+ul.dropzones li.sw,
+ul.dropzones li.w,
+ul.dropzones li.nw {
+	left: 10px ;
+}
+
+ul.dropzones li.w,
+ul.dropzones li.e {
+	margin-top: -25px ;
+	top: 50% ;
+}
+
+ul.dropzones li.n,
+ul.dropzones li.s {
+	margin-left: -65px ;
+	left: 50% ;
+}
